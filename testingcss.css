@@ -60,6 +60,18 @@ section > form > address{
     font-size: 20px;
 }
 
+section > form > address > a{
+ color: white;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+section > form > address > a:hover{
+    color: white;
+    text-decoration: none;
+    color: rgb(235, 45, 83);
+}
+
 section > form > input[type="button"] {
     background-color: white;
     font-size: 25px;
@@ -74,7 +86,6 @@ input[type="button"]:hover {
     background-color: #000000;
     transition: 0.5s;
 }
-
 
 footer{
     background-color: black;
